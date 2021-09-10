@@ -7,10 +7,10 @@ describe('<Main />', () => {
     const { container } = render(<Main />)
 
     expect(
-      screen.getByRole('heading', { name: /totem app/i })
+      screen.getByRole('heading', { name: /tailwind boilerplate app/i })
     ).toBeInTheDocument()
 
-    expect(screen.getByRole('heading', { name: /totem app/i })).toHaveClass(
+    expect(screen.getByRole('heading', { name: /tailwind boilerplate app/i })).toHaveClass(
       'text-9xl font-bold'
     )
 

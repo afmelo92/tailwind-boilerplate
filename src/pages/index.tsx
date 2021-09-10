@@ -7,7 +7,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Totem App</title>
+        <title>Tailwind Boilerplate App</title>
       </Head>
       <Main />
     </>

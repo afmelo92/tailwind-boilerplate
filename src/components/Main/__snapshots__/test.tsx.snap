@@ -5,7 +5,7 @@ exports[`<Main /> should render heading 1`] = `
   <h1
     class="text-9xl font-bold"
   >
-    Totem App
+    Tailwind Boilerplate App
   </h1>
 </main>
 `;
